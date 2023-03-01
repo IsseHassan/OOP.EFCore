@@ -18,8 +18,7 @@ namespace OOP.EFCore.ConsoleApp
 
             _context.Categories.Remove(category);
             _context.SaveChanges();
-
-            Console.WriteLine(8858888);
+           
             Console.ReadKey();          
         }
     }
